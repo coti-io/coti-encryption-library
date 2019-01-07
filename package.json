@@ -1,0 +1,26 @@
+{
+  "name": "coti-encryption-library",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "bigdecimal": "^0.6.1",
+    "blakejs": "^1.1.0",
+    "bn.js": "^4.11.8",
+    "crc-32": "^1.2.0",
+    "elliptic": "^6.4.0",
+    "js-sha256": "^0.9.0",
+    "js-sha3": "^0.7.0",
+    "mocha": "^5.2.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/cotitech-io/crypto-library#readme",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cotitech-io/crypto-library.git"
+  }
+}
