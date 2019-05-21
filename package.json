@@ -4,23 +4,41 @@
   "description": "",
   "dependencies": {
     "assert": "^1.4.1",
+    "axios": "^0.18.0",
     "bigdecimal": "^0.6.1",
     "blakejs": "^1.1.0",
     "bn.js": "^4.11.8",
+    "commander": "^2.19.0",
     "crc-32": "^1.2.0",
+    "dotenv": "^7.0.0",
     "elliptic": "^6.4.0",
+    "express": "^4.16.4",
     "js-sha256": "^0.9.0",
     "js-sha3": "^0.7.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "moment": "^2.24.0",
+    "node-cleanup": "^2.1.2",
+    "sockjs-client": "^1.3.0",
+    "stompjs": "^2.3.3",
+    "websocket": "^1.0.28",
+    "webstomp-client": "^1.2.6"
   },
   "files": [
     "lib"
   ],
-  "homepage": "https://github.com/cotitech-io/crypto-library#readme",
+  "scripts": {
+    "start": "node server.js",
+    "debug": "node --nolazy --inspect-brk=9229 server.js",
+    "test": "jest"
+  },
+  "homepage": "https://github.com/coti-io/coti-encryption-library#readme",
   "license": "MIT",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cotitech-io/crypto-library.git"
+    "url": "git://github.com/coti-io/coti-encryption-library.git"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
   }
 }
