@@ -39,6 +39,7 @@
     "url": "git://github.com/coti-io/coti-encryption-library.git"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
     "jest": "^24.5.0"
   }
 }
