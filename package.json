@@ -4,7 +4,7 @@
   "description": "",
   "dependencies": {
     "assert": "^1.4.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bigdecimal": "^0.6.1",
     "blakejs": "^1.1.0",
     "bn.js": "^4.11.8",
